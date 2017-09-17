@@ -1,1 +1,30 @@
-/* CSS File */
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
+
+body {
+	background-image: url("http://2.bp.blogspot.com/-QkCoXoBvbxA/VLAQzOgQVLI/AAAAAAAAC_8/YIXjaEbbALk/s1600/8621_chalkboard.jpg");
+	background-position: center top;
+	background-size: auto;
+	font-family: 'Gloria Hallelujah', cursive;
+	color: white;
+	margin-top: 80px;
+}
+
+h1 {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 75px;
+	text-shadow: 6px 5px black;
+	border: 5px solid white;
+	padding: 10px;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+
+.blockquote {
+	font-size: 30px;
+}
+
+.btn:hover {
+	color: red;
+}
