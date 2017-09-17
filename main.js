@@ -6,9 +6,6 @@ possible url's to use:
 		or
 	http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1
 
-
-
-
 sample output (respectively):
 
 	mycallback([{
@@ -27,8 +24,6 @@ sample output (respectively):
 		"link":"https:\/\/quotesondesign.com\/robynne-raye\/",
 		"custom_meta":{"Source":"<a href=\"http:\/\/www.amazon.com\/gp\/product\/159253127X?ie=UTF8&tag=css-tricks-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=159253127X\">book<\/a>"}
 	}]
-
-
 
 sample jQuery:
 
@@ -53,7 +48,12 @@ sample jQuery:
 	  });
 	});
 
-
-
-
 */
+
+$(document).ready(function() {
+	// All custom JavaScript/jQuery go below this line
+	$("#getNewQuoteButton").click(function() {
+		$("#quoteText").html("Hello World!");
+	});
+	// All custom JavaScript/jQuery go above this line
+});
