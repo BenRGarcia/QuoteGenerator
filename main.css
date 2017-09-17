@@ -6,6 +6,7 @@ body {
 	background-image: url("http://2.bp.blogspot.com/-QkCoXoBvbxA/VLAQzOgQVLI/AAAAAAAAC_8/YIXjaEbbALk/s1600/8621_chalkboard.jpg");
 	background-position: center top;
 	background-size: auto;
+	background-attachment: fixed;
 	font-family: 'Gloria Hallelujah', cursive;
 	color: white;
 	margin-top: 80px;
